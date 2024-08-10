@@ -5,7 +5,7 @@ literal_name_of_installation_directory=".tarball-installations"
 universal_path_for_installation_directory="$HOME/$literal_name_of_installation_directory"
 app_installation_directory="$universal_path_for_installation_directory/mullvad-browser"
 official_package_location="https://mullvad.net/en/download/browser/linux-x86_64/latest"
-tar_location=$(mktemp /tmp/floorp.XXXXXX.tar.xz)
+tar_location=$(mktemp /tmp/mullvadbrowser.XXXXXX.tar.xz)
 open_tar_application_data_location="mullvad-browser"
 local_bin_path="$HOME/.local/bin"
 local_application_path="$HOME/.local/share/applications"
@@ -91,7 +91,7 @@ echo "Installation is successful"
 
 sleep 1
 
-echo "Done, and done, have fun!"
+echo "Done, and done, long live survellience-free browsing!"
 
 sleep 1
 
